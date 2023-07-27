@@ -1,0 +1,240 @@
+
+* {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+   
+}
+@font-face {
+font-family: "mv waheed";
+src: url("https://dl.dropboxusercontent.com/s/z0u7r5sz6ofh6so/MV_Waheed%283%29.otf") format('opentype');
+}
+@font-face {
+font-family: "Mv Faseyha";
+src: url("https://dl.dropboxusercontent.com/s/nt4yxgy3xwl40es/Faruma.otf") format('opentype');
+}
+
+
+span {
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  direction: rtl;
+ 
+}
+
+li {
+    float:right;
+    direction: rtl;
+  }
+
+li a {
+    display: block;
+    color: #B8860B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Mv Faseyha";
+    transition: 0.4s;
+    direction: rtl;
+     float: left;
+  }
+
+li:hover {
+  background-color: #B8860B;
+  direction: rtl;
+  
+}
+
+li a:hover {
+  color: #ffffff;
+  direction: rtl;
+
+}
+
+p {
+  color: #0a0a0a;
+  font-family: "Mv Faseyha";
+  direction: rtl;
+}
+
+
+footer {
+  color: #080808;
+  font-family: "Mv Faseyha";
+  text-align: center;
+  bottom: 0;
+}
+
+
+header {
+    color: #B8860B;
+    font-family: "Mv Faseyha";
+    text-align: center;
+    direction: rtl;
+  }
+
+h1 {
+  color: #B8860B;
+  font-family:"Mv Faseyha";
+  text-align: center;
+  direction: rtl;
+}
+
+i {
+    float: left;
+  }
+
+
+body {
+    margin: 0;
+    font-family: "sans-serif";
+    background: #f5f5f5;
+}
+
+.grid {
+    display: grid;  
+    grid-template-columns: repeat(12,1fr);
+    gap: 30px;
+
+}
+
+h2, h3, h4, h5 {
+
+    font-family:"Mv Faseyha";
+}
+
+
+
+header {
+    padding: 20px 40px;
+    background: #c7c7c9;
+    align-items: center;
+}
+
+header h1 {
+    grid-column:  span 6;
+}
+
+header nav {
+    grid-column: 7 / span 6;
+    justify-self: end;
+}
+
+header nav a {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+p {
+
+    text-align: justify;
+    font-size: 16px;
+    font-family:"Mv Faseyha";
+    padding: 20px;
+}
+main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0px;
+}
+
+main img {
+    grid-column: 2span 10;
+    size: 300 200;
+    border-radius: 6px;
+    justify-items: center;
+    border: #080808;
+    
+
+}
+
+main .Welcome {
+    grid-column: 2 / span 10;
+    text-align: center;
+}
+
+main > h2 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    font-family:"Mv Faseyha";
+}
+
+main .card {
+    grid-column: span 4;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+main .Speeches {
+    grid-column: 8 / span 5;
+}
+
+main > h2 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    font-family:"Mv Faseyha";
+}
+
+main .card {
+    grid-column: span 4;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 960px) {
+    main img {
+        grid-column: 2 / span 10;
+    }
+
+    main .Welcome {
+        grid-column: 3 / span 8;
+        text-align: justify;
+        font-family:"Mv Faseyha";
+    }
+
+    main .card {
+        grid-column: 3 / span 8;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+a:link,a:active,a:visited,a:hover{
+	color:#3f51b5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mv Faseyha";
+}
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
