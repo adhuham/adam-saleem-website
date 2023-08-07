@@ -12,6 +12,10 @@ src: url("https://dl.dropboxusercontent.com/s/z0u7r5sz6ofh6so/MV_Waheed%283%29.o
 font-family: "Mv Faseyha";
 src: url("https://dl.dropboxusercontent.com/s/nt4yxgy3xwl40es/Faruma.otf") format('opentype');
 }
+@font-face {
+font-family: "mv-typer";
+src: url("https://thohasaleemrh.github.io/AdamSaleem-website/mvtyper.ttf") format('truetypr');
+}
 
 
 span {
