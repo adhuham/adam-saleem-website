@@ -15,36 +15,33 @@
 
 <body>
    
-    <header class="grid">
-        <h1>ހޯރަފުށީ އާދަމް ސަލީމް</h1>
-        <nav>
-            <ul>
-              <li><a href="#">ފުރަތަމަ ސަފުހާ</a></li>
-              <li><a href="#">އަޅުގަނޑުމެން</a></li>
-              <li><a href="#">މީޑިއާ</a></li>
-              <li><a href="#">ޅެންތައް</a></li>
-              <li><a href="#">ތަގުރީރުތައް</a></li>
-              
-              <ul class="social-icons">
-                <li style="float:left">
-                  <a href="#" class="social-icon"> <i class="fa fa-linkedin"></i></a>
-                </li>
-                <li style="float:left">
-                  <a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a>
-                </li>
-                <li style="float:left">
-                  <a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a>
-                </li>
-                <li style="float:left">
-                  <a href="#" class="social-icon"> <i class="fa fa-instagram"></i></a>
-                </li>
-                <li style="float:left">
-                  <a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a>
-                </li>
-           
-              </ul>
-          </nav>
-    </header>
+  <header>
+    <!-- creating a container and a grid with rows and columns (see: https://getbootstrap.com/docs/5.3/layout/grid/) -->
+    <div class="container">
+
+      <!-- put only the site title in the first row -->
+      <div class="row">
+        <div class="col">
+          <h1>ހޯރަފުށީ އާދަމް ސަލީމް</h1>
+        </div>
+      </div>
+
+      <!-- new row -->
+      <div class="row">
+        <!-- adding .d-flex class makes the div flex container -->
+        <nav class="d-flex">
+          <a href="#">ފުރަތަމަ ސަފުހާ</a>
+          <a href="#">އަޅުގަނޑުމެން</a>
+          <a href="#">މީޑިއާ</a>
+          <a href="#">ޅެންތައް</a>
+          <a href="#">ތަގުރީރުތައް</a>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+    
     <main class="grid">
         <img src="Adam Saleem 2 (2).jpg" alt="Adam Saleem">
         <div class="Welcome">
@@ -121,5 +118,8 @@
     
     </footer>
     
+
+    <!-- linking the boostrap javascript files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
