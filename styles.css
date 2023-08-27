@@ -6,32 +6,32 @@
 }
 
 @font-face {
-    font-family: "mv waheed";
+    font-family: mv-waheed;
     src: url("https://dl.dropboxusercontent.com/s/z0u7r5sz6ofh6so/MV_Waheed%283%29.otf") format('opentype');
 }
 
 @font-face {
-    font-family: "Mv Faseyha";
+    font-family: mv-faseyha;
     src: url("https://dl.dropboxusercontent.com/s/nt4yxgy3xwl40es/Faruma.otf") format('opentype');
 }
 
 @font-face {
-    font-family: "mv-typer";
+    font-family: mv-typer;
     src: url("https://thohasaleemrh.github.io/AdamSaleem-website/mvtyper.ttf") format('truetype');
 }
 
 
 /* general style for all <p> tags */
 p {
-  color: #444;
-  font-size: 18px;
-  font-family: mv-typer, 'MV Typewriter';
-  direction: rtl;
+    font-family: mv-typer;
+    line-height: 1.9em;
+    color: #333;
+    font-size: 17px;
 }
 
 /* generals tyle for all heading tags */
 h2, h3, h4, h5 {
-    font-family: "MV Aaamu FK";
+    font-family: mv-waheed;
 }
 
 body {
