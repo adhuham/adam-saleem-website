@@ -95,17 +95,28 @@ header {
 
 /* selects the <h1> tag inside the <header> element */
 header h1 {
-  color: #B8860B;
-  font-family:"Mv Faseyha";
-  text-align: center;
-  direction: rtl;
+    color: #B8860B;
+    font-family: "MV Aaamu FK";
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 25px;
+    margin-top: 12px;
+    font-size: 31px;
 }
 
 /** header menu <a> anchor tag styles */
 header nav a {
-    color: #333;
+    color: #545454 !important;
     margin-left: 10px;
     text-decoration: none;
+    background: #f6f6f6;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background: #B8860B;
+    color: #FFF;
 }
 
 main {
