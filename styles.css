@@ -75,7 +75,7 @@ header nav a {
 
 header nav a:hover {
     background: #B8860B;
-    color: #FFF;
+    color: #FFF !important;
 }
 
 
