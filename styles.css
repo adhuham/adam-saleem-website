@@ -17,8 +17,14 @@
 
 @font-face {
     font-family: mv-typer;
-    src: url("https://thohasaleemrh.github.io/AdamSaleem-website/mvtyper.ttf") format('truetype');
+    src: url("https://adhuham.github.io/adam-saleem-website/mvtyper.ttf") format('truetype');
 }
+
+@font-face {
+    font-family: mv-aaamu-fk;
+    src: url("https://adhuham.github.io/adam-saleem-website/mv-aaamu-fk.ttf") format('truetype');
+}
+
 
 
 body {
@@ -54,7 +60,7 @@ header {
 /* selects the <h1> tag inside the <header> element */
 header h1 {
     color: #B8860B;
-    font-family: "MV Aaamu FK";
+    font-family: mv-aaamu-fk;
     text-align: center;
     direction: rtl;
     margin-bottom: 25px;
@@ -80,7 +86,7 @@ header nav a:hover {
 
 /** section titles */
 .section-title {
-    font-family: MV Aaamu FK;
+    font-family: mv-aaamu-fk;
     text-align: center;
     color: #b8860b;
     font-size: 32px;
