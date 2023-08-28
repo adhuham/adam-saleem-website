@@ -5,6 +5,7 @@
    
 }
 
+/* embedding the fonts */
 @font-face {
     font-family: mv-waheed;
     src: url("https://dl.dropboxusercontent.com/s/z0u7r5sz6ofh6so/MV_Waheed%283%29.otf") format('opentype');
@@ -26,7 +27,7 @@
 }
 
 
-
+/* generic styles */
 body {
     background: #f1f1f1 !important;
 }
@@ -48,7 +49,7 @@ h2, h3, h4, h5 {
     font-family: mv-waheed;
 }
 
-/* overrides .card style from the bootstrap framework */
+/* overrides .card style from the bootstrap framework (adds a dashed border) */
 .card {
    border: dashed 2px #7e7e7e !important;
 }
@@ -70,7 +71,7 @@ header h1 {
     font-size: 31px;
 }
 
-/** header menu <a> anchor tag styles */
+/* header menu <a> anchor tag styles */
 header nav a {
     font-family: mv-typer;
     color: #545454 !important;
@@ -95,7 +96,7 @@ header .mobile-nav .dropdown-menu {
     text-align: right;
 }
 
-/** section titles */
+/* section title (use this class for all section title/headings) */
 .section-title {
     font-family: mv-aaamu-fk;
     text-align: center;
