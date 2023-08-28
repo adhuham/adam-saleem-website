@@ -88,6 +88,11 @@ header nav a:hover {
     color: #FFF !important;
 }
 
+/* mobile dropdown nav styles */
+header .dropdown {
+    font-family: mv-typer;
+}
+
 /** section titles */
 .section-title {
     font-family: mv-aaamu-fk;
