@@ -30,6 +30,8 @@
       <div class="row">
         <!-- adding .d-flex class makes the div flex container -->
         <!-- see: https://getbootstrap.com/docs/5.3/utilities/flex/ -->
+        <!-- d-none - don't display by default, d-md-flex - display as a flex object on screens larger than medium -->
+        <!-- d-none d-md-flex hides the element on mobile and display on screens larger than medium (md) -->
         <nav class="d-none d-md-flex justify-content-center">
           <a href="#">ފުރަތަމަ ސަފުހާ</a>
           <a href="#">އަޅުގަނޑުމެން</a>
@@ -38,6 +40,9 @@
           <a href="#">ތަގުރީރުތައް</a>
         </nav>
 
+        <!-- mobile dropdown menu (see: https://getbootstrap.com/docs/5.3/components/dropdowns/#overview) -->
+        <!-- d-block - display block by default, d-md-none - don't display on screens larger than medium -->
+        <!-- refer to: https://getbootstrap.com/docs/5.3/utilities/display/ -->
         <div class="mobile-nav dropdown-center d-block d-md-none">
           <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             މެނޫ
