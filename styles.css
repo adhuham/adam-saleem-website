@@ -89,7 +89,7 @@ header nav a:hover {
 }
 
 /* mobile dropdown nav styles */
-header .dropdown {
+header .mobile-nav {
     font-family: mv-typer;
 }
 
