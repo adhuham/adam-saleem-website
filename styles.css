@@ -91,6 +91,10 @@ header nav a:hover {
 /* mobile dropdown nav styles */
 header .mobile-nav {
     font-family: mv-typer;
+    text-align: center;
+}
+header .mobile-nav .dropdown-menu {
+    text-align: right;
 }
 
 /** section titles */
